@@ -1,0 +1,176 @@
+:root {
+  /* Body Background Bg--- */
+  --background-color: #254dff;
+
+  /* sm Background ---- Bg */
+  --form-bg: #202020;
+  --fb-bg: #4267b2;
+  --google-bg: #fff;
+  --ps-bg: #02b3e8;
+  --xbox-bg: #107c10;
+  --switch-bg: #e60012;
+
+  /* text color */
+  --h6-text: #f1f1f1;
+  --input-bg: #2b2b2b;
+  --input-text: #f4f4f4;
+  --focus-bg: #484848;
+  --options-color: #f4f4f480;
+  --checkbox-bg: #484848;
+  --link-color: #f4f4f480;
+  --privacy-color: #f1f1f1;
+
+  /* Button Color Bg */
+  --button-bg: #191919;
+  --button-actv: #037bee;
+  --button-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--background-color);
+}
+
+.card {
+  width: 540px;
+  padding: 35px 50px;
+  border-radius: 4px;
+  background: var(--form-bg);
+}
+/* 
+.card .logo img {
+  width: 17%;
+}
+
+.card .logo {
+  text-align: center;
+} */
+
+.card .title {
+  margin-top: 20px;
+}
+
+.title p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.input-container {
+  margin-top: 30px;
+}
+
+.input-container input {
+  width: 100%;
+  height: 54px;
+  background: var(--input-bg);
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 2px;
+  transition: all 0.2s linear;
+}
+
+.input-container input:hover,
+.input-container input:focus {
+  background: var(--focus-bg);
+}
+
+.input-container #msgBox {
+  width: 100%;
+  height: 130px;
+  background-color: var(--input-bg);
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 12px 0;
+  color: white;
+  transition: 0.2s linear;
+}
+
+.input-container #msgBox:hover,
+.input-container #msgBox:focus {
+  background: var(--focus-bg);
+}
+
+.remember {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember .input {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #f4f4f480;
+}
+
+.remember .forgot {
+  font-size: 14px;
+  color: #f4f4f480;
+}
+
+.loginBtn {
+  margin-top: 10px;
+}
+
+.loginBtn button {
+  width: 100%;
+  height: 54px;
+  background: var(--input-bg);
+  color: #d9d8d880;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.privacy {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.new {
+  color: #f4f4f480;
+  text-align: center;
+}
+
+.new .acc {
+  font-size: 14px;
+}
+
+.acc span {
+  color: #fff;
+}
+
+.p2 {
+  font-size: 14px;
+}
+
+.p2 a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.emailText a {
+  text-decoration: none;
+  color: #4488ff;
+  font-weight: 700;
+}

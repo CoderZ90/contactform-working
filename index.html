@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <title>Working Contact Form | By Aditya</title>
+  </head>
+  <body>
+    <form action="https://formsubmit.co/reactscriptjs@gmail.com" method="POST" class="card">
+      <div class="title">
+        <p>👋 Feel Free To Contact Us</p>
+      </div>
+
+      <div class="input-container">
+        <div class="inputBox">
+          <input type="text" placeholder="Username" name="userName" required />
+        </div>
+        <div class="inputBox">
+          <input type="Email" placeholder="Email" name="userEmail" required />
+        </div>
+        <div class="inputBox">
+          <input type="number" placeholder="Phone No." name="phoneNo" required />
+        </div>
+        <div class="inputBox">
+          <textarea
+            type="text"
+            placeholder="Your Message...."
+            required
+            id="msgBox"
+            name="messageSentByUser"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="loginBtn">
+        <button type="Submit">Send Message</button>
+      </div>
+
+      <div class="privacy">
+        <p class="emailText">
+          Or Just Email Us At -
+          <a href="mailto:example@example.com">example@mail.com</a>
+        </p>
+      </div>
+    </form>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
